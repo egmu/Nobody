@@ -1,1 +1,1 @@
-worker : npm i ffmpeg && npm install && npm install libwebp && npm start
+worker : npm i ffmpeg && npm install  && npm start
