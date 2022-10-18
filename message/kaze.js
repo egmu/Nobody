@@ -6,7 +6,7 @@ bilang ada yang mirip ama sc lain maklumin
 base ini hasil copas:v
 
 Thanks To
-
+r
 Tuhanku
 Keluargaku
 Kaze(base)
@@ -118,7 +118,7 @@ return buffer
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6289619240209-1589321480@g.us" } : {}) 
+	 { remoteJid: "6289519240209-1589321480@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
@@ -132,7 +132,7 @@ return buffer
 
 // fake doc
 const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `*HIDETAG!*`,jpegThumbnail: global.thumb}}}
-	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6283102650464-1589321480@g.us","inviteCode": "m","groupName": NameBot, "caption": global.footer, 'jpegThumbnail': global.thumb}}}
+	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6289519240209-1589321480@g.us","inviteCode": "m","groupName": NameBot, "caption": global.footer, 'jpegThumbnail': global.thumb}}}
     const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289519240209-1589321480@g.us" } : {}) },message: { "videoMessage": { "title":`*AUTO DOWNLOAD AUDIO YOUTUBE*`, "h": `Hmm`,'seconds': '10000000⁰0', 'caption': `*AUTO DOWNLOAD AUDIO YOUTUBE*`, 'jpegThumbnail': global.thumb}}}
     // end
 // -------[ END ]------- \\
