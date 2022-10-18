@@ -904,7 +904,7 @@ case 'jodohku': {
 // OTHER MENU \\
 			case 'request': case 'requestfitur':{
 				if (!text) return m.reply(`Text mana?\n\nExample : ${prefix + command} Tambahin fitur tiktok downloader dong`)
-				conn.sendMessage(`6289519240209@s.whatsapp.net`, {text: `*Hallo owner ada yang request fitur nih*\n\nPesan : ${text}\nPengirim : ${m.sender}`}, {quoted: {key: { fromMe: false,
+				conn.sendMessage(`6283102650464@s.whatsapp.net`, {text: `*Hallo owner ada yang request fitur nih*\n\nPesan : ${text}\nPengirim : ${m.sender}`}, {quoted: {key: { fromMe: false,
 				participant: `${m.sender}`, ...(from ? { remoteJid: "6283102650464-1589321480@g.us" } : {})},
 				message: { "extendedTextMessage": {
 				"text": `Request Fitur!`,
